@@ -1,0 +1,21 @@
+#Start{
+    width: 10%;
+    height: 40px;
+    margin-left: 45%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 900;
+}
+.faceDown, .faceUp{
+    width: 6.25%;
+    height: auto;
+    display: inline-block;
+}
+.cards{
+    display: inline;
+}
