@@ -13,8 +13,8 @@
 }
 .faceDown, .faceUp{
     width: 6.25%;
-    height: auto;
-    display: inline-block;
+    height: auto;    
+    float: left;
 }
 .cards{
     display: inline;
