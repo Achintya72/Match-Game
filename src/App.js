@@ -45,7 +45,7 @@ export default class App extends React.Component{
         )
       })
       return(
-        <div>
+        <div className="gameBoard">
           <button id="Start" onClick={this.fetchCards}>Start Game</button>
           <div className="cards">{renderProps}</div>
 

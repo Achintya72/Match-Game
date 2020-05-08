@@ -1,6 +1,6 @@
 import React from 'react'
-
-export default function FaceDown(){
+import './FaceDownCard.png'
+export default function FaceDown(props){
     return(
         <div className="faceDown"></div>
     )
