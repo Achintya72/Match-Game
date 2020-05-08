@@ -20,7 +20,9 @@
     display: inline;
 }
 .faceDown{
-    background-color: red;
+    background: url(FaceDownCard.png);
+    background-size: cover;
+    background-position: center;
     border-radius: 5%;
 }
  
