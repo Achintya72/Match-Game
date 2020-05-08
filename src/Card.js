@@ -9,7 +9,7 @@ export default class Card extends React.Component{
             image: props.image,
             value: props.value,
             matched: false,
-            selected: false
+            selected: false 
         }
         this.handleClick = this.handleClick.bind(this)
     }
