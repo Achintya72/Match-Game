@@ -1,0 +1,320 @@
+[
+    [
+        {
+            "image": "./Pics/1C.png",
+            "value": "1",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/1D.png",
+            "value": "1",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/1H.png",
+            "value": "1",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/1S.png",
+            "value": "1",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/2C.png",
+            "value": "2",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/2D.png",
+            "value": "2",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/2H.png",
+            "value": "2",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/2S.png",
+            "value": "2",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/3C.png",
+            "value": "3",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/3D.png",
+            "value": "3",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/3H.png",
+            "value": "3",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/3S.png",
+            "value": "3",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/4C.png",
+            "value": "4",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/4D.png",
+            "value": "4",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/4H.png",
+            "value": "4",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/4S.png",
+            "value": "4",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/5C.png",
+            "value": "5",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/5D.png",
+            "value": "5",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/5H.png",
+            "value": "5",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/5S.png",
+            "value": "5",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/6C.png",
+            "value": "6",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/6D.png",
+            "value": "6",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/6H.png",
+            "value": "6",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/6S.png",
+            "value": "6",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/7C.png",
+            "value": "7",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/7D.png",
+            "value": "7",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/7H.png",
+            "value": "7",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/7S.png",
+            "value": "7",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/8C.png",
+            "value": "8",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/8D.png",
+            "value": "8",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/8H.png",
+            "value": "8",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/8S.png",
+            "value": "8",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/9C.png",
+            "value": "9",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/9D.png",
+            "value": "9",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/9H.png",
+            "value": "9",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/9S.png",
+            "value": "9",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/10C.png",
+            "value": "10",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/10D.png",
+            "value": "10",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/10H.png",
+            "value": "10",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/10S.png",
+            "value": "10",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/JC.png",
+            "value": "J",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/JD.png",
+            "value": "J",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/JH.png",
+            "value": "J",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/JS.png",
+            "value": "J",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/QC.png",
+            "value": "Q",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/QD.png",
+            "value": "Q",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/QH.png",
+            "value": "Q",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/QS.png",
+            "value": "Q",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/KC.png",
+            "value": "K",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/KD.png",
+            "value": "K",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/KH.png",
+            "value": "K",
+            "selected" : false,
+            "matched" : false
+        },
+        {
+            "image": "./Pics/KS.png",
+            "value": "K",
+            "selected" : false,
+            "matched" : false
+        }
+    ],
+    {
+        "selected" : [],
+        "matched" : []
+    }
+]
