@@ -1,7 +1,65 @@
-import React from 'react'
+import React from 'react';
+
+import './Pics/1C.png'
+import './Pics/10C.png'
+import './Pics/10D.png'
+import './Pics/10H.png'
+import './Pics/10S.png'
+import './Pics/1C.png'
+import './Pics/1D.png'
+import './Pics/1H.png'
+import './Pics/1S.png'
+import './Pics/2C.png'
+import './Pics/2D.png'
+import './Pics/2H.png'
+import './Pics/2S.png'
+import './Pics/3C.png'
+import './Pics/3D.png'
+import './Pics/3H.png'
+import './Pics/3S.png'
+import './Pics/4C.png'
+import './Pics/4D.png'
+import './Pics/4H.png'
+import './Pics/4S.png'
+import './Pics/5C.png'
+import './Pics/5D.png'
+import './Pics/5H.png'
+import './Pics/5S.png'
+import './Pics/6C.png'
+import './Pics/6D.png'
+import './Pics/6H.png'
+import './Pics/6S.png'
+import './Pics/7C.png'
+import './Pics/7D.png'
+import './Pics/7H.png'
+import './Pics/7S.png'
+import './Pics/8C.png'
+import './Pics/8D.png'
+import './Pics/8H.png'
+import './Pics/8S.png'
+import './Pics/9C.png'
+import './Pics/9D.png'
+import './Pics/9H.png'
+import './Pics/9S.png'
+import './Pics/JC.png'
+import './Pics/JD.png'
+import './Pics/JH.png'
+import './Pics/JS.png'
+import './Pics/KC.png'
+import './Pics/KD.png'
+import './Pics/KH.png'
+import './Pics/KS.png'
+import './Pics/QC.png'
+import './Pics/QD.png'
+import './Pics/QH.png'
+import './Pics/QS.png'
 
 export default function FaceUp(props){
     return(
-        <img src={props.image} alt="" className="faceUp"></img>
+        <img 
+        src={props.image} 
+        alt="" 
+        className="faceUp"
+        />
     )
 }

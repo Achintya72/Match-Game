@@ -9,7 +9,8 @@ export default class Card extends React.Component{
             image: props.image,
             value: props.value,
             matched: false,
-            selected: false 
+            selected: false,
+            callback: props.updateState
         }
         this.handleClick = this.handleClick.bind(this)
     }
@@ -21,6 +22,7 @@ export default class Card extends React.Component{
         })
         if(this.state.selected === true)
         console.log(this.state.value +" "+ this.state.selected)
+        //this.state.callback(this)
     }
     render(){
         return(
