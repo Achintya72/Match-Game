@@ -75,9 +75,10 @@ export default class App extends React.Component {
       {
           if(this.state.selectedCard.value !== card.value)
           { 
-            this.setState({
+            this.setState({              
               selectedCard: null
             })    
+            
           }
       }     
       else if(this.state.selectedCard == null)
@@ -100,6 +101,10 @@ export default class App extends React.Component {
       }
   }
 
+  componentWillUpdate()
+  {
+    console.log('Component is changing')
+  }
 
   render() {
     const renderProps = this.state.cards.map(card => {
