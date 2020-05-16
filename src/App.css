@@ -20,7 +20,7 @@
     display: inline;
 }
 .faceDown{
-    background: url(FaceDownCard.png);
+    background: url(./Pics/FaceDownCard.png);
     background-size: cover;
     background-position: center;
     border-radius: 5%;
