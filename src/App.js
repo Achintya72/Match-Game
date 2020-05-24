@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Card from './Card'
 import cardData from './Manage.json'
-import { wait } from '@testing-library/react';
+
 
 // Hello respond with comment if you see me, 
 // Abhi: yes I can see it
@@ -24,10 +24,11 @@ export default class App extends React.Component {
   }
   fetchCards() {
     if (this.state.fetchCount < 1) {
+      var newCount  = this.state.fetchCount + 1;
       this.Shuffler()
       this.setState({
         cards: shuffledList,
-        fetchCount: this.state.fetchCount++
+        fetchCount: newCount
       })
     }
   }
@@ -50,25 +51,35 @@ export default class App extends React.Component {
       alert("Game Started")
     }
   }
-
+  
   ChangedCardState = (card) => {
     var newState = !card.props.selected;
     var cardIndex = card.props.index;
-    var sCards = this.state.selectedCards;
-    if(newState === true)
-    {
-      sCards.push(cardIndex);
-    }
-    const list = this.state.cards.map((c, j) =>{
+
+    var list = this.state.cards.map((c, j) =>{
       if(j === cardIndex){
          c.selected = newState;
       }
       return c;
     });
+
+    var prevSelectedCards = list.filter(c =>c.selected === true && c.matched !== true);
+     if(prevSelectedCards && prevSelectedCards.length === 2)
+     {
+       if(prevSelectedCards[0].value === prevSelectedCards[1].value)
+       {
+        list = list.map((c) =>{
+          if(c.selected === true){
+             c.matched = true;             
+          }
+          return c;
+        });
+       }
+     }
+
   
     this.setState({
-      cards:  list,
-      selectedCards: sCards
+      cards:  list      
     })    
     return;
   }
