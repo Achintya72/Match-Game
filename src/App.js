@@ -76,7 +76,7 @@ export default class App extends React.Component {
           if(c.selected === true){
              c.matched = true;            
           }
-          return c;
+           return c;
         });
        }
        else{
